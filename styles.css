@@ -6,3 +6,11 @@ p {
     color: blue;
     text-align: left;
 }
+li {
+    display: inline
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
