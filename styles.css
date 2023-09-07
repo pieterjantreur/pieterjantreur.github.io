@@ -8,7 +8,7 @@ a:link, a:visited {
     color: black;
     display: inline-block;
     padding: 15px 25px;
-    text-align: center;
+    text-align: right;
     text-decoration: none;    
 }
 a:hover, a:active {
@@ -19,5 +19,7 @@ body {
     background-color:rgb(61, 111, 158);
 }
 img {
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
