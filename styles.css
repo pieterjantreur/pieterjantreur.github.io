@@ -7,7 +7,6 @@ a:link,
 a:visited {
     float: left;
     color: black;
-    display: inline-block;
     padding: 15px 25px;
     text-align: right;
     text-decoration: none;
@@ -16,17 +15,19 @@ a:visited {
 a:hover,
 a:active {
     color: grey;
-    background-color: rgb(47, 48, 117);
+    background-color: rgb(3, 37, 76);
 }
 
 body {
-    background-color: rgb(61, 111, 158);
+    background-color: #187bcd;
+}
+body {
+    background
 }
 
 h2 ul li {
     font-size: 200%;
-    line-height: 1.6;
-
+    line-height;
 }
 
 hr {
