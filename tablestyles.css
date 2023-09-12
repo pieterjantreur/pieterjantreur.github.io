@@ -1,0 +1,43 @@
+:root {
+    --c1: #03254c;
+    --c2: #1167b1;
+    --c3: #187bcd;
+    --c4: #2a9df4;
+    --c5: #d0efff;
+ }
+
+.program-progress, .program-progress th, .program-progress td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+.program-progress {
+    max-width: 1080px;
+    background-color: var(--c5);
+    font-size: large;
+}
+
+.program-progress th {
+    background-color: var(--c4);
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1cm;
+}
+  .motivatie, .motivatie th, .motivatie td{
+    font-size: 150%; 
+    border: 2px solid black;
+    border-collapse: collapse;
+    max-width: 20%;
+    width: auto;
+    margin-right: 2px;
+    margin-left: auto;
+
+ }
+
+ .motivatie td{
+    background-color:var(--c5);
+ }
+ .motivatie th{
+    background-color: var(--c4);
+ }
