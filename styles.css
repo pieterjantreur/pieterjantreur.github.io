@@ -48,6 +48,5 @@ hr {
 }
 .home-title {
     text-align: center;
-    display: block;
-    font-size: xx-large;
+    font-size: 200%;
 }

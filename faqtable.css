@@ -1,0 +1,13 @@
+ .faq-data, .faq-data th, .faq-data td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    max-width: 50%;
+    font-size: 150%;
+    text-align: left; 
+ }
+ .faq-data th {
+   background-color: var(--c4);
+ }
+ .faq-data td {
+   background-color: var(--c5);
+ }
