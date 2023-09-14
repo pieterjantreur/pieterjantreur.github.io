@@ -41,3 +41,15 @@ label {
  .motivatie th{
     background-color: var(--c4);
  }
+ .welkom, .welkom th, .welkom td{
+    font-size: 150%; 
+    border: 2px solid black;
+    border-collapse: collapse;
+    max-width: 20%;
+ }
+ .welkom td {
+    background-color: var(--c5);
+ }
+ .welkom th {
+    background-color: var(--c4);
+ }

@@ -6,17 +6,17 @@
     --c5: #d0efff;
  }
 
-a:link,
-a:visited {
+.navbar:link,
+.navbar:visited {
     float: left;
-    color: black;
+    color: grey;
     padding: 15px 25px;
     text-align: right;
     text-decoration: none;
 }
 
-a:hover,
-a:active {
+.navbar:hover,
+.navbar:active {
     color: grey;
     background-color: var(--c1);
 }
@@ -49,4 +49,12 @@ hr {
 .home-title {
     text-align: center;
     font-size: 200%;
+}
+.insta:link, 
+.insta:visited{
+    color: var(--c1)
+}
+.insta:hover,
+.insta:active {
+    color: var(--c2);
 }
