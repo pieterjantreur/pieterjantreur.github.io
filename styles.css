@@ -9,7 +9,7 @@
 .navbar:link,
 .navbar:visited {
     float: left;
-    color: grey;
+    color: rgb(0, 0, 0);
     padding: 15px 25px;
     text-align: right;
     text-decoration: none;
