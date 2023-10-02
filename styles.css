@@ -17,8 +17,8 @@
 
 .navbar:hover,
 .navbar:active {
-    color: grey;
-    background-color: var(--c1);
+    color: var(--c1);
+    background-color: grey;
 }
 
 body {
@@ -43,7 +43,7 @@ hr {
     width: 2%;
 }
 
-.index-body {
+.bodyBackground {
     background-image: url(images/home-bg.jpg) ;
 }
 .home-title {
