@@ -4,10 +4,25 @@
     max-width: 50%;
     font-size: 150%;
     text-align: left; 
+    margin: auto;
  }
  .faq-data th {
    background-color: var(--c4);
  }
  .faq-data td {
    background-color: var(--c5);
+ }
+ .blogPagina, .blogPagina th, .blogPagina td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  max-width: 50%;
+  font-size: 150%;
+  text-align: center;
+  margin: auto;
+ }
+ .blogPagina th {
+  background-color: var(--c4);
+ }
+ .blogPagina td {
+  background-color: var(--c5);
  }

@@ -17,12 +17,8 @@
 
 .navbar:hover,
 .navbar:active {
-    color: var(--c1);
-    background-color: grey;
-}
-
-body {
-    background-color: var(--c3);
+    color: grey;
+    background-color: var(--c1);
 }
 
 h2 ul li {
@@ -45,10 +41,6 @@ hr {
 
 .bodyBackground {
     background-image: url(images/home-bg.jpg) ;
-}
-.home-title {
-    text-align: center;
-    font-size: 200%;
 }
 .insta:link, 
 .insta:visited{
