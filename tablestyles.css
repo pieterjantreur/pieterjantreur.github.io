@@ -1,52 +1,65 @@
 :root {
-    --c1: #03254c;
-    --c2: #1167b1;
-    --c3: #187bcd;
-    --c4: #2a9df4;
-    --c5: #d0efff;
- }
-
-.program-progress, .program-progress th, .program-progress td {
-    border: 3px solid black;
-    border-collapse: collapse;
+   --c1: #03254c;
+   --c2: #1167b1;
+   --c3: #187bcd;
+   --c4: #2a9df4;
+   --c5: #d0efff;
 }
+
+.program-progress,
+.program-progress th,
+.program-progress td {
+   border: 3px solid black;
+   border-collapse: collapse;
+}
+
 .program-progress {
-    max-width: 1080px;
-    background-color: var(--c5);
-    font-size: large;
+   max-width: 1080px;
+   background-color: var(--c5);
+   font-size: large;
 }
 
 .program-progress th {
-    background-color: var(--c4);
+   background-color: var(--c4);
 }
 
 label {
-    padding-right: 10px;
-    font-size: 1cm;
+   padding-right: 10px;
+   font-size: 1cm;
 }
-  .motivatie, .motivatie th, .motivatie td{
-    font-size: 150%; 
-    border: 2px solid black;
-    border-collapse: collapse;
-    max-width: 60%;
-    margin: auto;
- }
- .motivatie td{
-    background-color:var(--c5);
- }
- .motivatie th{
-    background-color: var(--c4);
- }
- .welkom, .welkom th, .welkom td{
-    font-size: 150%; 
-    border: 2px solid black;
-    border-collapse: collapse;
-    max-width: 60%;
-    margin: auto;
- }
- .welkom td {
-    background-color: var(--c5);
- }
- .welkom th {
-    background-color: var(--c4);
- }
+
+.motivatie,
+.motivatie th,
+.motivatie td {
+   font-size: 150%;
+   border: 2px solid black;
+   border-collapse: collapse;
+   max-width: 60%;
+   margin: auto;
+}
+
+.motivatie td {
+   background-color: var(--c5);
+}
+
+.motivatie th {
+   background-color: var(--c4);
+}
+
+.welkom,
+.welkom th,
+.welkom td {
+   font-size: 150%;
+   border: 2px solid black;
+   border-collapse: collapse;
+   max-width: 60%;
+   margin: auto;
+}
+
+.welkom td {
+   background-color: var(--c5);
+}
+
+.welkom th {
+   background-color: var(--c4);
+}

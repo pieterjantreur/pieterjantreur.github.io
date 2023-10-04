@@ -4,7 +4,7 @@
     --c3: #187bcd;
     --c4: #2a9df4;
     --c5: #d0efff;
- }
+}
 
 .navbar:link,
 .navbar:visited {
@@ -40,11 +40,11 @@ hr {
 }
 
 .bodyBackground {
-    background-image: url(images/home-bg.jpg) ;
+    background-image: url(images/home-bg.jpg);
 }
 
-.insta:link, 
-.insta:visited{
+.insta:link,
+.insta:visited {
     color: var(--c1)
 }
 
