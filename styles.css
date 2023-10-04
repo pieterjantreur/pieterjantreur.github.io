@@ -42,11 +42,59 @@ hr {
 .bodyBackground {
     background-image: url(images/home-bg.jpg) ;
 }
+
 .insta:link, 
 .insta:visited{
     color: var(--c1)
 }
+
 .insta:hover,
 .insta:active {
     color: var(--c2);
+}
+
+.dropbtn {
+    background-color: var(--c2);
+    color: black;
+    padding: 25px;
+    font-size: 100%;
+    border: none;
+    cursor: pointer;
+    font: bolder;
+    margin-bottom: 20;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: var(--c1);
+}
+
+.dropdown {
+    position: relative;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    right: 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
 }
